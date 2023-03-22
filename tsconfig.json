@@ -1,0 +1,23 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "rootDir": "./src",
+      "outDir": "libs",
+      "sourceMap": true,
+      "declaration": false,
+      "noImplicitAny": false,
+      "noImplicitReturns": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "importHelpers": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es2015",
+      "module": "esnext",
+      "lib": ["es2017", "dom"],
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true
+    },
+    "exclude": ["node_modules", "tmp"]
+  }
