@@ -1,9 +1,9 @@
 import '@vaadin/vaadin-lumo-styles/vaadin-iconset.js'
 import '@vaadin/vaadin-core'
-import { LitElement, css } from 'lit'
+import { LitElement, css, html } from 'lit'
 import { customElement } from 'lit/decorators.js'
 
-@customElement('app')
+@customElement('test-app')
 export class LoginLayout extends LitElement {
 
   static get styles() {
